@@ -25,9 +25,11 @@
   <h1>sora 2 GenTraj — 2D + ViPE-lifted 3D tracks</h1>
   <p>
     Frame-0 GT visible points are tracked through the Sora 2 generated video by
-    AllTracker, then lifted to 3D using ViPE depth/pose/intrinsics estimated on
-    the same Sora video. Left panel: Sora frame + 2D track trail. Right panel:
-    rotating 3D camera-frame trails. Per-track rainbow color is shared.
+    AllTracker, then lifted to 3D using ViPE depth/pose/intrinsics on the same
+    Sora video. Left: source GT clip + GT 2D tracks of the query subset.
+    Middle: Sora 2 video + AllTracker 2D tracks. Right: ViPE-lifted 3D
+    (camera-frame, gentle azimuth rotation). Each panel uses an independent
+    rainbow palette indexed by query-point order.
   </p>
 </header>
 <main>
