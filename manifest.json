@@ -1,0 +1,14 @@
+[
+  {
+    "dataset": "davis",
+    "stem": "bear",
+    "T": 30,
+    "n_pts": 97
+  },
+  {
+    "dataset": "worldtrack",
+    "stem": "01f258-3_obj_source_left_6_clip01_obj1_2_3_4_5_t0-127",
+    "T": 18,
+    "n_pts": 189
+  }
+]
